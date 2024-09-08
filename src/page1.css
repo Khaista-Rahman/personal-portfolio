@@ -1,0 +1,88 @@
+
+#photo{
+  background-image: url(images/myImage1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 6px 4px 31px white;
+}
+
+
+#container1{
+  border-radius: 10px;
+  box-shadow: 1px 2px 78px white;
+}
+
+#container2{
+  border-radius: 10px;
+  box-shadow: 1px 2px 78px white;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+h1 {
+  display: inline-block;
+  overflow: hidden;
+}
+
+#name{
+  display: inline-block;
+  animation: slideIn 0.3s ease-in-out;
+}
+
+#facebook{
+  box-shadow: 1px 2px 78px blue;
+}
+
+#css{
+  box-shadow: 1px 2px 78px blue;
+}
+
+#whatsapp{
+  box-shadow: 1px 2px 78px rgb(9, 166, 9);
+}
+
+#instagram{
+  box-shadow: 1px 2px 78px rgb(220, 135, 149);
+}
+
+#html{
+  box-shadow: 1px 2px 78px rgb(242, 178, 40);
+}
+
+#javascript{
+  box-shadow: 1px 2px 78px yellow;
+}
+
+#tailwindPhoto{
+  background-image: url(images/tailwind.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+  box-shadow: 1px 2px 78px blue;
+}
+
+#tictactoePhoto{
+  background-image: url(images/tictactoe.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+  box-shadow: 1px 2px 78px blue ;
+}
+
+#xiaomiPhoto{
+  background-image: url(images/xiaomi.png);
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+  box-shadow: 1px 2px 78px white ;
+}

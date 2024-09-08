@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100vw;
+  background: linear-gradient(130deg , white, skyblue)
+}
+
+button {
+  transition: transform 0.5s ease-in-out;
+}
+
+button:hover {
+  transform: translateY(-10px);
+}
+
+#nav1{
+  width: 100vw;
+  height: 18vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav1 h1{
+  font-size: xx-large;
+  font-weight: 1200;
+}
+
+#nav1 button{
+  width: 14vw;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+}
+
+#nav1 button:hover{
+  cursor: pointer;
+  background: linear-gradient(140deg , black , gray);
+}
+
+
+#container1{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+#topImageContainer {
+  transition: transform 0.5s ease-in-out;
+}
+
+#topImageContainer:hover {
+  transform: translateY(-10px);
+}
+
+#topImageContainer{
+  height: 50vh;
+  width: 70vw;
+  border-radius: 10px;
+  background-image: url(images/pic1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+#innerOftopImageContainer{
+  margin-left: 200px;
+}
+
+#innerOftopImageContainer h1{  
+  font-weight: 400;
+}
+
+#innerOftopImageContainer span{
+  font-weight: 900;
+  font-size: 50px;
+  margin-right: 15px;
+}
+
+#innerOftopImageContainer h2{  
+  font-weight: 400;
+}
+
+#innerOftopImageContainer button{  
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: none;
+  padding: 10px;
+}
+
+#innerOftopImageContainer button:hover{  
+  background: linear-gradient(130deg , black ,gray);
+  cursor: pointer;
+}
+
+#shopping{
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#item1 img {
+  transition: transform 0.5s ease-in-out;
+}
+
+#item1 img:hover {
+  transform: translateY(-10px);
+}
+
+#item1{
+  margin-top: 10px;
+  height: 60vh;
+  width: 45vw;
+  display: flex;
+  justify-content: center;
+}
+
+#item1 img{
+  height: 45vh;
+  width: 15vw;
+}
+
+#item1 h1{
+  margin-top: 10px;
+}
+
+#item1 p{
+  margin-top: 10px;
+}
+
+
+#item1 button{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+
+#item1 button:hover{
+  cursor: pointer;
+  background: linear-gradient(130deg , black ,gray);
+}
+
+#topImageContainer2 {
+  transition: transform 0.5s ease-in-out;
+}
+
+#topImageContainer2:hover {
+  transform: translateY(-10px);
+}
+
+#topImageContainer2{
+  height: 50vh;
+  width: 70vw;
+  border-radius: 10px;
+  background-image: url(images/pic4.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}

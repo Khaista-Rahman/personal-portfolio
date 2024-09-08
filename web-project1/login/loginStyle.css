@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/loginbacgroundImage.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  width: 30vw;
+  height: 25px;
+  margin-top: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 7px;
+  border-image: linear-gradient(90deg, #000000 , white) 1;
+  animation: borderAnimation2 3s linear infinite
+}
+
+@keyframes borderAnimation2 {
+  0% {
+      border-image: linear-gradient(90deg, black, white) 1;
+  }
+  50% {
+      border-image: linear-gradient(90deg, white, black) 1;
+  }
+  100% {
+      border-image: linear-gradient(90deg, black, white) 1;
+  }
+}
+
+.login_container{
+  height: 50vh;
+  width: 40vw;
+  border-radius: 20px;
+  padding: 100px;
+  border: 5px solid;
+  border-image: linear-gradient(90deg, rgb(223, 116, 9), #000000 , white) 1;
+  animation: borderAnimation 3s linear infinite
+}
+
+@keyframes borderAnimation {
+  0% {
+      border-image: linear-gradient(90deg, black, white , rgb(223, 116, 9)) 1;
+  }
+  50% {
+      border-image: linear-gradient(90deg, white, rgb(223, 116, 9), black) 1;
+  }
+  100% {
+      border-image: linear-gradient(90deg, black, white, rgb(223, 116, 9)) 1;
+  }
+}
+
+#newAccount{
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(255, 116, 24);
+  color: white;
+}
+
+
+#newAccount:hover{
+  cursor: pointer;
+  color: skyblue;
+}
+
+#signIn{
+  width: 30vw;
+  height: 6vh;
+  background: linear-gradient(to top, black, rgb(255, 116, 24));
+  color:white;
+  margin-top: 10vh;
+  border-image: linear-gradient(90deg, rgb(223, 116, 9), #000000 , white) 1;
+  animation: borderAnimation 3s linear infinite
+}
+
+#signIn:hover{
+  cursor: pointer;
+
+}
