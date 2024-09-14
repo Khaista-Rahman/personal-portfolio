@@ -213,14 +213,13 @@ gsap.from("#projects", {
 })
 
 gsap.from("#project1,#project2", {
-  y : 800,
-  duration : 1,
+  scale : 0,
+  duration : 3,
   scrollTrigger:{
     trigger : "#projects",
     scroller : "body",
     start : "top 90%",
     end : "top 30%",
-    scrub : true,
   }
 })
 
